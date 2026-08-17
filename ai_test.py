@@ -1,5 +1,7 @@
 # $env:OPENAI_API_KEY="YOUR_API_KEY"
 # if ($env:OPENAI_API_KEY) { "API key is configured" } else { "API key is missing" }
+
+
 from openai import OpenAI
 
 
