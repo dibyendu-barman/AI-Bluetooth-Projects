@@ -28,25 +28,3 @@ Final end-to-end test:
 🗣️ Text-to-Speech
         ↓
 🔊 Airdopes Joy Speaker
-
-
-### Recommended GitHub files
-
-For the repository, I suggest keeping:
-
-```text
-Project-01-Earbud-Test/
-│
-├── README.md
-├── PROJECT_REPORT/
-│   └── Project_01_Final_Report.pdf
-├── audio_test.py
-├── whisper_gemini_test.py
-├── gemini_short_test.py
-├── tts_test.py
-├── voice_assistant_test.py
-├── tests/
-│   ├── test_unit.py
-│   ├── test_integration.py
-│   └── test_functional.py
-└── requirements.txt
