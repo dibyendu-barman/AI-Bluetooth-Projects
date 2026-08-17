@@ -1,4 +1,4 @@
-# $env:OPENAI_API_KEY="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"
+# $env:OPENAI_API_KEY="YOUR_API_KEY"
 # if ($env:OPENAI_API_KEY) { "API key is configured" } else { "API key is missing" }
 from openai import OpenAI
 
