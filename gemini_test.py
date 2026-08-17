@@ -1,4 +1,4 @@
-# $env:GEMINI_API_KEY="AQ.Ab8RN6JBTraLq2vUR79GFyA5AyeSO58ef3JnGzLdoWAMVXP8PA"
+# $env:GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 # if ($env:GEMINI_API_KEY) { "Gemini API key configured" } else { "Gemini API key missing" }
 
 import time
