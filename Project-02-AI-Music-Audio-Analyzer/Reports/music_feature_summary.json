@@ -1,0 +1,49 @@
+{
+    "file": {
+        "name": "test_music.mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "samples": 10585088,
+        "duration_sec": 240.02
+    },
+    "signal": {
+        "rms_amplitude": 0.14045000076293945,
+        "rms_dbfs": -17.049999237060547,
+        "peak_amplitude": 0.9809790253639221,
+        "peak_dbfs": -0.17000000178813934,
+        "crest_factor": 6.985000133514404,
+        "dynamic_range_db": 16.8799991607666
+    },
+    "clipping": {
+        "clipped_samples": 0,
+        "clipping_percentage": 0.0
+    },
+    "spectral": {
+        "centroid_hz": 2315.86,
+        "bandwidth_hz": 3010.12,
+        "rolloff_hz": 5069.88,
+        "flatness": 0.0002010000025620684,
+        "zero_crossing_rate": 0.046885
+    },
+    "frequency_balance": {
+        "bass_percent": 89.41999816894531,
+        "mid_percent": 10.5,
+        "treble_percent": 0.07999999821186066,
+        "dominant_band": "Bass"
+    },
+    "rhythm": {
+        "bpm": 109.96,
+        "tempo_category": "Moderate",
+        "beats": 437,
+        "onsets": 1052
+    },
+    "music": {
+        "dominant_pitch_class": "D",
+        "estimated_key": "G Minor",
+        "key_correlation": 0.7472
+    },
+    "quality": {
+        "health_score": 96,
+        "classification": "Excellent"
+    }
+}
