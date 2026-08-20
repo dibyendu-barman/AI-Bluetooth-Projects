@@ -1,0 +1,114 @@
+{
+    "project": "AI Music & Audio Analyzer",
+    "version": "v1.1",
+    "step": "20",
+    "generated_at": "2026-08-20T14:39:33.206769",
+    "track": {
+        "name": "test_music.mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "samples": 10585088,
+        "duration_sec": 240.02
+    },
+    "signal_analysis": {
+        "rms_amplitude": 0.14045000076293945,
+        "rms_dbfs": -17.049999237060547,
+        "peak_amplitude": 0.9809790253639221,
+        "peak_dbfs": -0.17000000178813934,
+        "crest_factor": 6.985000133514404,
+        "dynamic_range_db": 16.8799991607666
+    },
+    "spectral_analysis": {
+        "centroid_hz": 2315.86,
+        "bandwidth_hz": 3010.12,
+        "rolloff_hz": 5069.88,
+        "flatness": 0.0002010000025620684,
+        "zero_crossing_rate": 0.046885
+    },
+    "frequency_balance": {
+        "bass_percent": 89.41999816894531,
+        "mid_percent": 10.5,
+        "treble_percent": 0.07999999821186066,
+        "dominant_band": "Bass"
+    },
+    "rhythm_analysis": {
+        "bpm": 109.96,
+        "tempo_category": "Moderate",
+        "beats": 437,
+        "onsets": 1052
+    },
+    "music_analysis": {
+        "dominant_pitch_class": "D",
+        "estimated_key": "G Minor",
+        "key_correlation": 0.7472
+    },
+    "clipping_analysis": {
+        "clipped_samples": 0,
+        "clipping_percentage": 0.0
+    },
+    "audio_quality": {
+        "health_score": 96,
+        "classification": "Excellent"
+    },
+    "ai_interpretation": {
+        "track_summary": "Measured facts: 'test_music.mp3' is a monophonic (1 channel) audio file with a duration of 240.02 seconds, a sample rate of 44,100 Hz, and 10,585,088 total samples. Interpretation: The signal maintains a peak level of -0.17 dBFS and an average loudness (RMS) of -17.05 dBFS.",
+        "sound_character": "Measured facts: Spectral centroid is 2315.86 Hz, spectral rolloff is 5069.88 Hz, and spectral flatness is 0.000201. Technical explanation: Spectral centroid represents the 'center of mass' or perceptual brightness of the sound, while spectral flatness measures tone purity (values near zero indicate strong harmonic/tonal structure rather than noise). Interpretation: The sound profile is predominantly tonal with moderate high-frequency extension.",
+        "frequency_analysis": "Measured facts: Energy distribution is 89.42% bass, 10.50% midrange, and 0.08% treble, with a dominant band classified as Bass. Spectral bandwidth is 3010.12 Hz. Interpretation: The signal exhibits a heavily bass-dominated frequency spectrum, with minimal high-frequency spectral energy.",
+        "rhythm_analysis": "Measured facts: Tempo is measured at 109.96 BPM (classified as Moderate), with 437 total beat detections and 1052 onset events across the track. Interpretation: The audio features a steady, moderate-paced rhythmic structure with frequent transient events.",
+        "harmonic_analysis": "Measured facts: The dominant pitch class is D, and the estimated musical key is G Minor with a key correlation score of 0.7472. Interpretation: The tonal content strongly correlates with G Minor. Note: The musical key is an automated estimate and should be interpreted as such.",
+        "technical_quality": "Measured facts: Peak amplitude is -0.17 dBFS, dynamic range is 16.87 dB, crest factor is 6.99, zero clipped samples were detected (0.0%), and the calculated health score is 96 ('Excellent'). Technical explanation: Crest factor measures the ratio between peak and average (RMS) levels, indicating signal dynamics. Interpretation: The audio signal maintains clear dynamic headroom without digital clipping. Note: The project health score is an internal quality heuristic and not an industry-standard audio measurement.",
+        "key_observation": "The track displays strong low-frequency spectral concentration (89.42% bass) alongside an unclipped, dynamic signal envelope with -0.17 dBFS peak headroom.",
+        "important_findings": [
+            "Zero clipped samples detected across 240.02 seconds of audio.",
+            "89.42% of total spectral energy is concentrated in the bass frequency band.",
+            "Measured tempo of 109.96 BPM with 437 beats and 1052 detected onsets.",
+            "Key estimation algorithm indicates G Minor with a correlation score of 0.7472.",
+            "Dynamic range measures 16.88 dB with a peak-to-average (crest factor) ratio of 6.99."
+        ],
+        "limitations": [
+            "Analysis is restricted strictly to monophonic signal measurements.",
+            "Artist, genre, instruments, vocals, lyrics, recording location, and production history are unknown and unmeasured.",
+            "Estimated key (G Minor) is a computational estimate requiring subjective verification.",
+            "The project health score (96) is an internal algorithm metric, not an industry-standard measurement."
+        ],
+        "overall_interpretation": "The evaluated audio file displays high technical integrity with zero digital clipping, healthy signal dynamics (16.88 dB dynamic range), and a moderate tempo of 109.96 BPM. Spectrally, the audio is heavily focused in the low-frequency region (89.42% bass) with strong tonal characteristics. Key identification suggests G Minor based on pitch profile modeling."
+    },
+    "ai_recommendations": {
+        "overall_insight": "Measured facts confirm a 240.02-second monophonic audio file (44.1 kHz) featuring clean signal headroom with a peak level of -0.17 dBFS, a dynamic range of 16.88 dB, and zero clipped samples. Interpretation suggests high technical recording health (internal health score 96), alongside an extreme frequency bias toward low frequencies (89.42% bass) and very limited treble content (0.08%).",
+        "strengths": [
+            "Measured fact: Zero clipped samples (0.0%) detected across the 10,585,088 total samples.",
+            "Measured fact: Peak level of -0.17 dBFS maintains absolute headroom below digital 0.0 dBFS.",
+            "Measured fact: Dynamic range measures 16.88 dB with a crest factor of 6.99, indicating preserved transient dynamics."
+        ],
+        "areas_to_review": [
+            "Frequency energy distribution: Measured bass energy is 89.42%, while midrange is 10.50% and treble is 0.08%.",
+            "Channel configuration: Audio signal is monophonic (1 channel). Review if stereo imaging or spatial distribution is required.",
+            "Automated key estimation: Estimated key is G Minor with a correlation score of 0.7472; this is a computational prediction requiring manual confirmation."
+        ],
+        "audio_engineering_recommendations": [
+            "Consider reviewing frequency equalization to evaluate if the severe bass emphasis (89.42%) and low treble energy (0.08%) meet target spectral expectations.",
+            "Consider checking true-peak headroom if converting to lossy formats, as the peak level of -0.17 dBFS is close to 0 dBFS.",
+            "Evaluate whether high-pass filtering or parametric low-frequency reduction is needed to reveal more midrange detail (10.50%)."
+        ],
+        "listening_recommendations": [
+            "Perform playback tests on full-range monitoring systems with subwoofers to evaluate low-frequency energy handling.",
+            "Test listening on small or mobile speakers to review how the track translates without strong treble energy (0.08%)."
+        ],
+        "music_metadata_recommendations": [
+            "Verify the automated musical key estimate of G Minor through musical ear training or reference instruments.",
+            "Confirm the measured tempo of 109.96 BPM against the original composition click/grid.",
+            "Ensure metadata accurately logs the audio file format as 1-channel mono."
+        ],
+        "risk_flags": [
+            "Potential spectral translation risk: The strong dominance of low-frequency energy (89.42%) may cause mud or playback distortion on systems sensitive to low frequencies."
+        ],
+        "priority_actions": [
+            "Review spectral balance to assess the high ratio of low-frequency energy relative to mids and highs.",
+            "Subjectively verify the algorithmic key estimate (G Minor) and tempo (109.96 BPM).",
+            "Keep in mind that the health score of 96 is an internal heuristic and does not guarantee subjective mix quality."
+        ],
+        "final_recommendation": "The signal demonstrates clean technical properties with strong dynamic range and zero digital clipping. Further technical review should focus primarily on evaluating the extreme low-frequency spectral concentration (89.42% bass) and manually confirming automated tempo and key estimates."
+    },
+    "dashboard": "ai_music_analysis_dashboard.png",
+    "final_report": "final_ai_music_analysis.html"
+}
